@@ -2,28 +2,79 @@
     -webkit-user-select: none;
     -webkit-user-drag: none;
     cursor: default;
+    box-sizing: border-box;
 }
 
 :root {
     color-scheme: light dark;
-
-    --spacing: 20px;
+    --spacing: 12px;
 }
 
-html {
-    height: 100%;
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg-color: #ffffff;
+        --text-color: #000000;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #1e1e1e;
+        --text-color: #ffffff;
+    }
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-    gap: var(--spacing);
-    margin: 0 calc(var(--spacing) * 2);
-    height: 100%;
-
+    padding: var(--spacing);
     font: -apple-system-short-body;
     text-align: center;
+}
+
+.content-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+img {
+    width: 64px;
+    height: 64px;
+    margin: var(--spacing) auto;
+    display: block;
+}
+
+h1 {
+    font-size: 1.3em;
+    margin: var(--spacing) 0;
+}
+
+h2 {
+    font-size: 1.1em;
+    margin: var(--spacing) 0 calc(var(--spacing) / 2);
+}
+
+p, ul, ol {
+    margin: calc(var(--spacing) / 2) 0;
+    font-size: 0.9em;
+}
+
+ul, ol {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.description, .usage, .privacy, .setup-instructions {
+    margin: calc(var(--spacing) / 2) 0;
+}
+
+.platform-mac.open-preferences {
+    margin-top: var(--spacing);
+    font-size: 0.9em;
 }

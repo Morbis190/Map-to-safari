@@ -7,9 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     <link rel="stylesheet" href="../Style.css">
+    <script src="../Script.js" defer></script>
 </head>
 <body>
-    <img src="../Icon.png" width="128" height="128" alt="Map to safari Icon">
-    <p>You can turn on Map to safari’s Safari extension in Settings.</p>
+    <div class="content-wrapper">
+        <img src="../icon.png" width="64" height="64" alt="Google to Apple Maps Safari Icon">
+        <h1>Google to Apple Maps Safari</h1>
+        
+        <div class="description">
+        <p>This extension automatically converts Google Maps links to Apple Maps, making navigation seamless on your Apple devices.</p>
+        
+        <h2>Key Features:</h2>
+        <ul>
+            <li>One-click conversion from Google Maps to Apple Maps</li>
+            <li>Works automatically in the background</li>
+            <li>Preserves all location information</li>
+            <li>Native Apple Maps integration</li>
+        </ul>
+    </div>
+
+    <div class="usage">
+        <h2>How It Works</h2>
+        <p>Once enabled, the extension will:</p>
+        <ol>
+            <li>Detect when you click a Google Maps link</li>
+            <li>Convert the coordinates and location data</li>
+            <li>Open the location in Apple Maps instead</li>
+        </ol>
+    </div>
+
+    <div class="privacy">
+        <h2>Privacy First</h2>
+        <p>This extension respects your privacy:</p>
+        <ul>
+            <li>No data collection or tracking</li>
+            <li>Works completely offline</li>
+            <li>No personal information stored</li>
+        </ul>
+    </div>
+
+    <div class="setup-instructions">
+        <p class="platform-ios">You can turn on Google to Apple Maps Safari's Safari extension in Settings.</p>
+        <p class="platform-mac state-unknown">You can turn on Google to Apple Maps Safari's extension in Safari Extensions preferences.</p>
+        <p class="platform-mac state-on">Google to Apple Maps Safari's extension is currently on. You can turn it off in Safari Extensions preferences.</p>
+        <p class="platform-mac state-off">Google to Apple Maps Safari's extension is currently off. You can turn it on in Safari Extensions preferences.</p>
+        <button class="platform-mac open-preferences">Quit and Open Safari Extensions Preferences…</button>
+    </div>
+    </div>
 </body>
 </html>

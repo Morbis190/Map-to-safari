@@ -16,12 +16,13 @@
 
     "background": {
         "scripts": [ "background.js" ],
-        "type": "module"
+        "type": "module",
+        "persistent": false
     },
 
     "content_scripts": [{
         "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "matches": [ "<all_urls>" ]
     }],
 
     "action": {
@@ -29,5 +30,14 @@
         "default_icon": "images/toolbar-icon.svg"
     },
 
-    "permissions": [ ]
+    "permissions": [
+        "webRequest",
+        "webNavigation",
+        "tabs"
+    ],
+
+    "host_permissions": [
+        "*://www.google.com/maps/*",
+        "*://maps.google.com/*"
+    ]
 }
