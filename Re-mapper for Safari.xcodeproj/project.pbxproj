@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15855B982D83DCDD00B77CD6 /* Map to safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 15855B972D83DCDD00B77CD6 /* Map to safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		15855B982D83DCDD00B77CD6 /* Re-mapper for Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 15855B972D83DCDD00B77CD6 /* Re-mapper for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				15855B982D83DCDD00B77CD6 /* Map to safari Extension.appex in Embed Foundation Extensions */,
+				15855B982D83DCDD00B77CD6 /* Re-mapper for Safari Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,26 +49,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		15855B642D83DCDD00B77CD6 /* Map to safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Map to safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		15855B812D83DCDD00B77CD6 /* Map to safariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Map to safariTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		15855B8B2D83DCDD00B77CD6 /* Map to safariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Map to safariUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		15855B972D83DCDD00B77CD6 /* Map to safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Map to safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15855B642D83DCDD00B77CD6 /* Re-mapper for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Re-mapper for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15855B812D83DCDD00B77CD6 /* Re-mapper for SafariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Re-mapper for SafariTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15855B8B2D83DCDD00B77CD6 /* Re-mapper for SafariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Re-mapper for SafariUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15855B972D83DCDD00B77CD6 /* Re-mapper for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Re-mapper for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		15855BB12D83DCDD00B77CD6 /* Exceptions for "Map to safari" folder in "Map to safari" target */ = {
+		15855BB12D83DCDD00B77CD6 /* Exceptions for "Map to safari" folder in "Re-mapper for Safari" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 15855B632D83DCDD00B77CD6 /* Map to safari */;
+			target = 15855B632D83DCDD00B77CD6 /* Re-mapper for Safari */;
 		};
-		15855BB52D83DCDD00B77CD6 /* Exceptions for "Map to safari Extension" folder in "Map to safari Extension" target */ = {
+		15855BB52D83DCDD00B77CD6 /* Exceptions for "Map to safari Extension" folder in "Re-mapper for Safari Extension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 15855B962D83DCDD00B77CD6 /* Map to safari Extension */;
+			target = 15855B962D83DCDD00B77CD6 /* Re-mapper for Safari Extension */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -76,7 +76,7 @@
 		15855B662D83DCDD00B77CD6 /* Map to safari */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				15855BB12D83DCDD00B77CD6 /* Exceptions for "Map to safari" folder in "Map to safari" target */,
+				15855BB12D83DCDD00B77CD6 /* Exceptions for "Map to safari" folder in "Re-mapper for Safari" target */,
 			);
 			path = "Map to safari";
 			sourceTree = "<group>";
@@ -94,7 +94,7 @@
 		15855B9B2D83DCDD00B77CD6 /* Map to safari Extension */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				15855BB52D83DCDD00B77CD6 /* Exceptions for "Map to safari Extension" folder in "Map to safari Extension" target */,
+				15855BB52D83DCDD00B77CD6 /* Exceptions for "Map to safari Extension" folder in "Re-mapper for Safari Extension" target */,
 			);
 			explicitFolders = (
 				Resources/_locales,
@@ -151,10 +151,10 @@
 		15855B652D83DCDD00B77CD6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15855B642D83DCDD00B77CD6 /* Map to safari.app */,
-				15855B812D83DCDD00B77CD6 /* Map to safariTests.xctest */,
-				15855B8B2D83DCDD00B77CD6 /* Map to safariUITests.xctest */,
-				15855B972D83DCDD00B77CD6 /* Map to safari Extension.appex */,
+				15855B642D83DCDD00B77CD6 /* Re-mapper for Safari.app */,
+				15855B812D83DCDD00B77CD6 /* Re-mapper for SafariTests.xctest */,
+				15855B8B2D83DCDD00B77CD6 /* Re-mapper for SafariUITests.xctest */,
+				15855B972D83DCDD00B77CD6 /* Re-mapper for Safari Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15855B632D83DCDD00B77CD6 /* Map to safari */ = {
+		15855B632D83DCDD00B77CD6 /* Re-mapper for Safari */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15855BB72D83DCDD00B77CD6 /* Build configuration list for PBXNativeTarget "Map to safari" */;
+			buildConfigurationList = 15855BB72D83DCDD00B77CD6 /* Build configuration list for PBXNativeTarget "Re-mapper for Safari" */;
 			buildPhases = (
 				15855B602D83DCDD00B77CD6 /* Sources */,
 				15855B612D83DCDD00B77CD6 /* Frameworks */,
@@ -179,16 +179,16 @@
 			fileSystemSynchronizedGroups = (
 				15855B662D83DCDD00B77CD6 /* Map to safari */,
 			);
-			name = "Map to safari";
+			name = "Re-mapper for Safari";
 			packageProductDependencies = (
 			);
 			productName = "Map to safari";
-			productReference = 15855B642D83DCDD00B77CD6 /* Map to safari.app */;
+			productReference = 15855B642D83DCDD00B77CD6 /* Re-mapper for Safari.app */;
 			productType = "com.apple.product-type.application";
 		};
-		15855B802D83DCDD00B77CD6 /* Map to safariTests */ = {
+		15855B802D83DCDD00B77CD6 /* Re-mapper for SafariTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15855BBC2D83DCDD00B77CD6 /* Build configuration list for PBXNativeTarget "Map to safariTests" */;
+			buildConfigurationList = 15855BBC2D83DCDD00B77CD6 /* Build configuration list for PBXNativeTarget "Re-mapper for SafariTests" */;
 			buildPhases = (
 				15855B7D2D83DCDD00B77CD6 /* Sources */,
 				15855B7E2D83DCDD00B77CD6 /* Frameworks */,
@@ -202,16 +202,16 @@
 			fileSystemSynchronizedGroups = (
 				15855B842D83DCDD00B77CD6 /* Map to safariTests */,
 			);
-			name = "Map to safariTests";
+			name = "Re-mapper for SafariTests";
 			packageProductDependencies = (
 			);
 			productName = "Map to safariTests";
-			productReference = 15855B812D83DCDD00B77CD6 /* Map to safariTests.xctest */;
+			productReference = 15855B812D83DCDD00B77CD6 /* Re-mapper for SafariTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		15855B8A2D83DCDD00B77CD6 /* Map to safariUITests */ = {
+		15855B8A2D83DCDD00B77CD6 /* Re-mapper for SafariUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15855BBF2D83DCDD00B77CD6 /* Build configuration list for PBXNativeTarget "Map to safariUITests" */;
+			buildConfigurationList = 15855BBF2D83DCDD00B77CD6 /* Build configuration list for PBXNativeTarget "Re-mapper for SafariUITests" */;
 			buildPhases = (
 				15855B872D83DCDD00B77CD6 /* Sources */,
 				15855B882D83DCDD00B77CD6 /* Frameworks */,
@@ -225,16 +225,16 @@
 			fileSystemSynchronizedGroups = (
 				15855B8E2D83DCDD00B77CD6 /* Map to safariUITests */,
 			);
-			name = "Map to safariUITests";
+			name = "Re-mapper for SafariUITests";
 			packageProductDependencies = (
 			);
 			productName = "Map to safariUITests";
-			productReference = 15855B8B2D83DCDD00B77CD6 /* Map to safariUITests.xctest */;
+			productReference = 15855B8B2D83DCDD00B77CD6 /* Re-mapper for SafariUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		15855B962D83DCDD00B77CD6 /* Map to safari Extension */ = {
+		15855B962D83DCDD00B77CD6 /* Re-mapper for Safari Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15855BB22D83DCDD00B77CD6 /* Build configuration list for PBXNativeTarget "Map to safari Extension" */;
+			buildConfigurationList = 15855BB22D83DCDD00B77CD6 /* Build configuration list for PBXNativeTarget "Re-mapper for Safari Extension" */;
 			buildPhases = (
 				15855B932D83DCDD00B77CD6 /* Sources */,
 				15855B942D83DCDD00B77CD6 /* Frameworks */,
@@ -247,11 +247,11 @@
 			fileSystemSynchronizedGroups = (
 				15855B9B2D83DCDD00B77CD6 /* Map to safari Extension */,
 			);
-			name = "Map to safari Extension";
+			name = "Re-mapper for Safari Extension";
 			packageProductDependencies = (
 			);
 			productName = "Map to safari Extension";
-			productReference = 15855B972D83DCDD00B77CD6 /* Map to safari Extension.appex */;
+			productReference = 15855B972D83DCDD00B77CD6 /* Re-mapper for Safari Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -280,7 +280,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 15855B5F2D83DCDD00B77CD6 /* Build configuration list for PBXProject "Map to safari" */;
+			buildConfigurationList = 15855B5F2D83DCDD00B77CD6 /* Build configuration list for PBXProject "Re-mapper for Safari" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -294,10 +294,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15855B632D83DCDD00B77CD6 /* Map to safari */,
-				15855B802D83DCDD00B77CD6 /* Map to safariTests */,
-				15855B8A2D83DCDD00B77CD6 /* Map to safariUITests */,
-				15855B962D83DCDD00B77CD6 /* Map to safari Extension */,
+				15855B632D83DCDD00B77CD6 /* Re-mapper for Safari */,
+				15855B802D83DCDD00B77CD6 /* Re-mapper for SafariTests */,
+				15855B8A2D83DCDD00B77CD6 /* Re-mapper for SafariUITests */,
+				15855B962D83DCDD00B77CD6 /* Re-mapper for Safari Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -367,17 +367,17 @@
 /* Begin PBXTargetDependency section */
 		15855B832D83DCDD00B77CD6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 15855B632D83DCDD00B77CD6 /* Map to safari */;
+			target = 15855B632D83DCDD00B77CD6 /* Re-mapper for Safari */;
 			targetProxy = 15855B822D83DCDD00B77CD6 /* PBXContainerItemProxy */;
 		};
 		15855B8D2D83DCDD00B77CD6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 15855B632D83DCDD00B77CD6 /* Map to safari */;
+			target = 15855B632D83DCDD00B77CD6 /* Re-mapper for Safari */;
 			targetProxy = 15855B8C2D83DCDD00B77CD6 /* PBXContainerItemProxy */;
 		};
 		15855B9A2D83DCDD00B77CD6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 15855B962D83DCDD00B77CD6 /* Map to safari Extension */;
+			target = 15855B962D83DCDD00B77CD6 /* Re-mapper for Safari Extension */;
 			targetProxy = 15855B992D83DCDD00B77CD6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -391,7 +391,7 @@
 				DEVELOPMENT_TEAM = FT227Z6H54;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Map to safari Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Map to safari Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Re-mapper for Safari Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -421,7 +421,7 @@
 				DEVELOPMENT_TEAM = FT227Z6H54;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Map to safari Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Map to safari Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Re-mapper for Safari Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -453,7 +453,7 @@
 				DEVELOPMENT_TEAM = FT227Z6H54;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Map to safari/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Map to safari";
+				INFOPLIST_KEY_CFBundleDisplayName = "Re-mapper for Safari";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -489,7 +489,7 @@
 				DEVELOPMENT_TEAM = FT227Z6H54;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Map to safari/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Map to safari";
+				INFOPLIST_KEY_CFBundleDisplayName = "Re-mapper for Safari";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -649,7 +649,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Map to safari.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Map to safari";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Re-mapper for Safari.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Re-mapper for Safari";
 			};
 			name = Debug;
 		};
@@ -668,7 +668,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Map to safari.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Map to safari";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Re-mapper for Safari.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Re-mapper for Safari";
 			};
 			name = Release;
 		};
@@ -709,7 +709,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15855B5F2D83DCDD00B77CD6 /* Build configuration list for PBXProject "Map to safari" */ = {
+		15855B5F2D83DCDD00B77CD6 /* Build configuration list for PBXProject "Re-mapper for Safari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15855BBA2D83DCDD00B77CD6 /* Debug */,
@@ -718,7 +718,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15855BB22D83DCDD00B77CD6 /* Build configuration list for PBXNativeTarget "Map to safari Extension" */ = {
+		15855BB22D83DCDD00B77CD6 /* Build configuration list for PBXNativeTarget "Re-mapper for Safari Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15855BB32D83DCDD00B77CD6 /* Debug */,
@@ -727,7 +727,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15855BB72D83DCDD00B77CD6 /* Build configuration list for PBXNativeTarget "Map to safari" */ = {
+		15855BB72D83DCDD00B77CD6 /* Build configuration list for PBXNativeTarget "Re-mapper for Safari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15855BB82D83DCDD00B77CD6 /* Debug */,
@@ -736,7 +736,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15855BBC2D83DCDD00B77CD6 /* Build configuration list for PBXNativeTarget "Map to safariTests" */ = {
+		15855BBC2D83DCDD00B77CD6 /* Build configuration list for PBXNativeTarget "Re-mapper for SafariTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15855BBD2D83DCDD00B77CD6 /* Debug */,
@@ -745,7 +745,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15855BBF2D83DCDD00B77CD6 /* Build configuration list for PBXNativeTarget "Map to safariUITests" */ = {
+		15855BBF2D83DCDD00B77CD6 /* Build configuration list for PBXNativeTarget "Re-mapper for SafariUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15855BC02D83DCDD00B77CD6 /* Debug */,
