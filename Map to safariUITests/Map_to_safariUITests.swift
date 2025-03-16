@@ -1,6 +1,6 @@
 //
 //  Map_to_safariUITests.swift
-//  Map to safariUITests
+//  Re-mapper for SafariUITests
 //
 //  Created by Chris Cowan on 3/13/25.
 //

@@ -1,10 +1,10 @@
-# Privacy Policy for Map to Safari Extension
+# Privacy Policy for Re-mapper for Safari Extension
 
 Last updated: March 14, 2025
 
 ## Overview
 
-Map to Safari Extension ("we", "our", or "us") is committed to protecting your privacy. This privacy policy explains how we handle your information when you use our Safari browser extension.
+Re-mapper for Safari Extension ("we", "our", or "us") is committed to protecting your privacy. This privacy policy explains how we handle your information when you use our Safari browser extension.
 
 ## Information We Collect
 

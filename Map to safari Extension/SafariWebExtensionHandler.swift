@@ -1,6 +1,6 @@
 //
 //  SafariWebExtensionHandler.swift
-//  Map to safari Extension
+//  Re-mapper for Safari Extension
 //
 //  Created by Chris Cowan on 3/13/25.
 //

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Map to safari
+//  Re-mapper for Safari
 //
 //  Created by Chris Cowan on 3/13/25.
 //

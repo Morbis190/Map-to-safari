@@ -1,4 +1,4 @@
-# Map to Safari Extension
+# Re-mapper for Safari Extension
 
 A Safari extension that automatically converts Google Maps links to Apple Maps links, providing a seamless navigation experience for macOS and iOS users.
 
@@ -42,7 +42,7 @@ Access is limited to Google Maps domains:
 3. Enable the Safari extension in Safari's preferences:
    - Open Safari
    - Go to Preferences > Extensions
-   - Enable "Map to Safari Extension"
+   - Enable "Re-mapper for Safari Extension"
 
 ## Development
 
@@ -56,7 +56,7 @@ This project is built using:
 ### Project Structure
 
 ```
-Map to safari/
+Re-mapper for Safari/
 ├── App (Swift)
 │   ├── AppDelegate.swift
 │   ├── SceneDelegate.swift
